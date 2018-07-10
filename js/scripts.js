@@ -12,7 +12,7 @@ if (lastName == null | lastName == "") {
 
 
 
-birthday = prompt("What is your birthday?");
+birthday = prompt("What is your birthday?", "2/7/1994");
 
 
 confirmBirthday = confirm(`Are you sure your birthday is ${new Date(birthday)}?`);
