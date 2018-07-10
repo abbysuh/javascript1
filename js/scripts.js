@@ -1,6 +1,6 @@
-firstName = prompt("What is your first name?", "John");
+ let firstName = prompt("What is your first name?", "John");
 
-lastName = prompt("What is your last name?", "Doe");
+let lastName = prompt("What is your last name?", "Doe");
 
 console.log(firstName);
 
@@ -12,10 +12,10 @@ if (lastName == null | lastName == "") {
 
 
 
-birthday = prompt("What is your birthday?", "2/7/1994");
+let birthday = prompt("What is your birthday?", "2/7/1994");
 
 
-confirmBirthday = confirm(`Are you sure your birthday is ${new Date(birthday)}?`);
+let confirmBirthday = confirm(`Are you sure your birthday is ${new Date(birthday)}?`);
 
 if (confirmBirthday == false) {
   alert("Butter fingers I'm guessing?")
