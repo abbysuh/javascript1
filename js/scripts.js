@@ -36,3 +36,4 @@ switch (favColor.toLowerCase()) {
     break;
   default:
     alert(`Sorry, ${userName}, please enter a color from the list given.`)
+}
