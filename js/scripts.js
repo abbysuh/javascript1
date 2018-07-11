@@ -34,5 +34,5 @@ switch (favColor.toLowerCase()) {
     alert(`${userName} - No more shall the righteous cower before evil.`);
     break;
   default:
-    alert(`Sorry, ${userName}, please enter a color from the list given.`)
+    alert(`Sorry, ${userName}, please enter a color from the list given.`);
 }
