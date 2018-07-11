@@ -129,11 +129,11 @@ if(age) {
   under80 = confirm("Are you under 80 years old?");
   if (under80){
     let isCool = confirm("Do you like Star Wars?");
-    if (!isCool) return null;
+    if (!isCool) return;
     alert("You are awesome!")
     } else {
   let isOld = confirm("Do you enjoy prunes?");
     }
   { else {
-    alert("You were shot first!")
+    alert("You were shot first!");
   }
