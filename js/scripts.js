@@ -1,3 +1,4 @@
+
 let userName = prompt("What is your name?");
 let favColor = prompt("What is your favorite color in these options? Red, orange, yellow, green, blue, pink, purple, black, white, and grey", "Purple");
 
@@ -35,4 +36,3 @@ switch (favColor.toLowerCase()) {
     break;
   default:
     alert(`Sorry, ${userName}, please enter a color from the list given.`)
-}
