@@ -74,21 +74,21 @@
 // console.log(multiDimensional[0][0], multiDimensional[1][0]);
 
 // In-class II {
-let firstFav = ["Star Wars Episode III : Revenge of the Sith", "Anakin Skywalker/Darth Vader"];
-let secondFav = ["Elf", "Buddy the Elf"];
-let thirdFav = ["Central Intelligence", "Calvin Joyner"];
-let fourthFav = ["Karate Kid", "Daniel"];
-let fifthFav = ["Deadpool", "Wade Wilson"];
-let favoriteMovies = [];
-favoriteMovies.push(firstFav, secondFav, thirdFav, fourthFav, fifthFav);
-// console.log(favoriteMovies);
-
-let titles = [];
-titles.push(favoriteMovies[0][0], favoriteMovies[1][0], favoriteMovies[2][0], favoriteMovies[3][0], favoriteMovies[4][0]);
-alert(titles);
-
-let favLeast = [];
-favLeast.push(favoriteMovies[0], favoriteMovies[1]);
-console.log(favLeast);
-
-alert(favoriteMovies.length);
+// let firstFav = ["Star Wars Episode III : Revenge of the Sith", "Anakin Skywalker/Darth Vader"];
+// let secondFav = ["Elf", "Buddy the Elf"];
+// let thirdFav = ["Central Intelligence", "Calvin Joyner"];
+// let fourthFav = ["Karate Kid", "Daniel"];
+// let fifthFav = ["Deadpool", "Wade Wilson"];
+// let favoriteMovies = [];
+// favoriteMovies.push(firstFav, secondFav, thirdFav, fourthFav, fifthFav);
+// // console.log(favoriteMovies);
+//
+// let titles = [];
+// titles.push(favoriteMovies[0][0], favoriteMovies[1][0], favoriteMovies[2][0], favoriteMovies[3][0], favoriteMovies[4][0]);
+// alert(titles);
+//
+// let favLeast = [];
+// favLeast.push(favoriteMovies[0], favoriteMovies[1]);
+// console.log(favLeast);
+//
+// alert(favoriteMovies.length);
