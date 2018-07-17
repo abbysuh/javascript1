@@ -92,3 +92,72 @@
 // console.log(favLeast);
 //
 // alert(favoriteMovies.length);
+
+// LOOPS
+// When you want to execute a block of code a set amount of times.
+
+// For Loops
+// for (let i = 0; i < 5; i++) { // Declaring a variable named i, and setting the starting value to 0; condition required to execute the block of code, has to be true to run the block of code; add one
+// //   console.log(`The number is ${i+10}`); // Block of code
+// }
+// If the condition is not met, it doesn't run.
+// If the condition is never false, you have an infinite loop, do not make an infinite loop!
+// Generally use ++ or --
+// Do not modify i in side of the loop.
+
+// for (let i = 0; i < 11; i++) {
+//   console.log(`The number is ${i*10}.`);
+// }
+
+// const colors = ["blue", "purple", "indigo", "black"];
+// for (let index = 0; index < colors.length; index++) {
+//   console.log(colors[index]);
+//   continue;
+//   console.log("Why can't you see me"); // Breaks in the middle of the code, and continue.
+//   // if (index === 1) break; // End a loop prematurely
+// } // Display everything in the array.
+// It is generally good practice to start at 0 unless you have a reason to not to start at the beginning of the index.
+
+// While LOOPS
+// let counter = 0; // Have to have your counter declared before.
+// while (counter < 5) {
+//   console.log(`before ${counter}`);
+//   counter++; // Have to include the incrementing inside the loop.
+//   console.log(`after ${counter}`); // Once the loop has met its condition it immediately stops running.
+// }
+
+// For each
+// const captains = ["Kirk", "Picard", "Sisko", "Janeway", "Lorca"];
+// captains.forEach((captains, index) => {
+//   console.log(captains, index); // Returns the values of array and the index.
+// })
+
+// For of
+// const captains = ["Kirk", "Picard", "Sisko", "Janeway", "Lorca"];
+// for (let captain of captains) {
+//   console.log(`Hello Captain ${captain}`);
+// } // Returns the values of the array.
+
+// for in is for objects.
+// const me = {
+//   firstName: "Abby",
+//   lastName: "McLallin",
+//   age: 24
+// }
+//
+// for (let properties in me) {
+//   console.log(me[properties]);
+// }
+
+// In class III
+let firstFav = ["Star Wars Episode III : Revenge of the Sith", "Anakin Skywalker/Darth Vader"];
+let secondFav = ["Elf", "Buddy the Elf"];
+let thirdFav = ["Central Intelligence", "Calvin Joyner"];
+let fourthFav = ["Karate Kid", "Daniel"];
+let fifthFav = ["Deadpool", "Wade Wilson"];
+let favoriteMovies = [];
+favoriteMovies.push(firstFav, secondFav, thirdFav, fourthFav, fifthFav);
+
+for (i = 0; i < favoriteMovies.length; i++) {
+  if(favoriteMovies[i][0] === "Star Wars Episode III : Revenge of the Sith"); alert(`${favoriteMovies[i][0]} ${favoriteMovies[i][1]}`);
+}
