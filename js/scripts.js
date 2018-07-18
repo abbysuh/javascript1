@@ -16,3 +16,6 @@ if (isNaN(age)) {
 //
 // let ageNow = parseInt(prompt("How old are you?", "24"));
 // let amountProduct = parseInt(prompt("How much of the product do you need a day?", "2"));
+
+/* The "formula" needed for the function :
+Lifetime supply = [(80 - ageNow) * 365] * amountProduct */
