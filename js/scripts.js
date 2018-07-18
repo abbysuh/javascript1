@@ -54,7 +54,24 @@
 // iCallMyself();
 
 // Fat arrow functions - new Anonymous functions
-(logFunction, alertFunction) => {
-  logFunction("Hello world!");
-  alertFunction("Goodbye friends!");
-};
+// Basic implementation
+// (logFunction, alertFunction) => { // No function keyword
+//   logFunction("Hello world!");
+//   alertFunction("Goodbye friends!");
+// };
+//
+// // Only 1 argument
+// string => { // Paraenthesis are optional, 1 argument
+//   console.log(string);
+// };
+//
+// // Only can be named in function Expression
+// let logString = string => {
+//   console.log(string);
+// };
+//
+// logString("Hello cats!");
+
+// // Implicit return
+// string => (string.toUpperCase()); // Only to do 1 thing.
+// if you have no arguments, you need empty Paraenthesis
