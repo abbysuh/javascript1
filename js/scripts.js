@@ -12,10 +12,19 @@ if (isNaN(age)) {
 };
 
 // Lifetime Supply
-// alert(`You are ${dogYears(age)} in dog years!`);
-//
-// let ageNow = parseInt(prompt("How old are you?", "24"));
-// let amountProduct = parseInt(prompt("How much of the product do you need a day?", "2"));
-
-/* The "formula" needed for the function :
-Lifetime supply = [(80 - ageNow) * 365] * amountProduct */
+unction calcLifetimeSupply(currentAge, dailyUse, maxAge) {
+  if(isNaN(currentAge) && isNaN(dailyUse) && isNaN(maxAge)) {
+    alert("Please give me a number!");
+    let currentAgeSecondTry = prompt("Whats your age?");
+    let dailyUseSecondTry = prompt("How many per year?");
+    let maxAgeSecondTry = prompt("You gonna die doe?");
+    calcLifetimeSupply(currentAgeSecondTry, dailyUseSecondTry, maxAgeSecondTry);
+  } else {
+    if(curentAge < maxAge) {
+      let supply = (maxAge - currentAge) * (dailyUse * 365);
+      alert(`You will need ${supply} to last until you're ${maxAge}`);
+    } else {
+      alert("this is...awkward...youre dead.");
+    }
+  }
+}
