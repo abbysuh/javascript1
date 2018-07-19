@@ -75,3 +75,7 @@
 // // Implicit return
 // string => (string.toUpperCase()); // Only to do 1 thing.
 // if you have no arguments, you need empty Paraenthesis
+
+//METHODS
+console.log(3444343);//log was written to consume args
+"cheese".toUpperCase();//toUpperCase was written to consume 0 arguments
