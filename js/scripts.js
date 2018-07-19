@@ -12,7 +12,7 @@ if (isNaN(age)) {
 };
 
 // Lifetime Supply
-unction calcLifetimeSupply(currentAge, dailyUse, maxAge) {
+function calcLifetimeSupply(currentAge, dailyUse, maxAge) {
   if(isNaN(currentAge) && isNaN(dailyUse) && isNaN(maxAge)) {
     alert("Please give me a number!");
     let currentAgeSecondTry = prompt("Whats your age?");
