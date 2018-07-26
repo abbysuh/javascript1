@@ -4,11 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>How to JavaScript | July 2</title>
+  <title>How to JavaScript | Day 8</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+ <form action="http://abbysuh.com" name="login" method="POST"> <!--Default action is for the form to be submitted to the server it's hosted in. GET—Default(Expecting no parameters but returning something) and POST (Expects parameters and returns you something) for method in form. -->
+    <input type="email" name="email" required minlength="5">
+    <input type="password" name="password" required maxlength="8">
+    <button type="submit">Login</button>
+  </form>
 
   <script src="js/scripts.js" charset="utf-8"></script>
 </body>
