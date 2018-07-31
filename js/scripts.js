@@ -15,3 +15,12 @@ let emailImput = loginForm.email;
 // ? = after is a query parameter.
 
 // & = separating the different parameters.
+
+let passwordInput = loginForm.password;
+
+emailImput.addEventListener("keyup", e => {
+  console.log(e.keyCode); // What key did they hit?
+  e.keyCode; // What is getting typed in.
+})
+
+// RegEx — Regular expression, use to see if their input matches a pattern.
