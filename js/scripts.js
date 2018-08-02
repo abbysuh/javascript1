@@ -44,7 +44,7 @@ const userForm = document.forms.userForm;
 
 // Prototype — Attach new members to that PROTOTYPE
 
-User.prototype.calculateCartTotal = function () {
+User.prototype.calculateCartTotal = function () { // Object + prototype + name you want it to be called = function.
   let total = 0;
   this.cart.forEach(item => {
     total += item.price;
