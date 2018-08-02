@@ -41,3 +41,13 @@ const userForm = document.forms.userForm;
     console.log(newUser);
     userForm.reset();
   })
+
+// Prototype — Attach new members to that PROTOTYPE
+
+User.prototype.calculateCartTotal = function () {
+  let total = 0;
+  this.cart.forEach(item => {
+    total += item.price;
+  });
+  return total;
+}
